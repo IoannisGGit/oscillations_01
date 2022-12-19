@@ -1,0 +1,24 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    writing-mode: vertical-lr; /* or vertical-lr */
+    transform: rotate(180deg);
+    font-weight: 300;
+}
+canvas {
+    display: block;
+}
